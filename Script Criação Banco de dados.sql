@@ -38,7 +38,7 @@ CREATE TABLE usuarioPermissao (
     FOREIGN KEY (idPermissao) REFERENCES permissao(id)
 );
 
-CREATE TABLE pedidos (
+CREATE TABLE pedido (
     id INT PRIMARY KEY AUTO_INCREMENT,
     idMusica INT,
     numeroMesa INT,
